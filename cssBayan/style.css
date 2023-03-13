@@ -1,3 +1,82 @@
-body {
-  background: #FF00FF;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  transition: 1s;
+}
+
+.main {
+  height: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.header {
+  padding-bottom: 20px;
+}
+
+.mem-wrappers {
+  display: flex;
+  flex-direction: column;
+}
+
+#mem-wrappers:target .header-wrappers-close {
+  display: block;
+}
+
+#mem-wrappers:target .header-wrappers-open {
+  display: none;
+}
+
+#mem-wrappers:target .img-wrappers {
+  display: block;
+}
+
+#mem-wrappers:not(:target) .img-wrappers {
+  display: none;
+}
+
+.header-wrappers-close {
+  display: none;
+}
+
+.mem-link {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.img-wrappers {
+  display: none;
+  margin: 0 auto;
+}
+
+.header-wrappers {
+  padding: 20px 10px;
+  border-top: 2px solid rgb(129, 129, 129);
+}
+
+.mem-title {
+  font-size: 1.4rem;
+}
+
+.mem-img {
+  width: 24px;
+  height: 24px;
+}
+
+
+
+
+

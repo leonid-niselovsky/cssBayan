@@ -29,25 +29,6 @@ body {
   flex-direction: column;
 }
 
-#mem-wrappers:target .header-wrappers-close {
-  display: block;
-}
-
-#mem-wrappers:target .header-wrappers-open {
-  display: none;
-}
-
-#mem-wrappers:target .img-wrappers {
-  display: block;
-}
-
-#mem-wrappers:not(:target) .img-wrappers {
-  display: none;
-}
-
-.header-wrappers-close {
-  display: none;
-}
 
 .mem-link {
   text-decoration: none;
@@ -58,7 +39,6 @@ body {
 }
 
 .img-wrappers {
-  display: none;
   margin: 0 auto;
 }
 
@@ -76,7 +56,126 @@ body {
   height: 24px;
 }
 
+.imgs {
+  height: 400px;
+  width: 400px;
+}
 
+/* MEM 1 */
+
+/* #mem-wrappers: #header-wrappers-close {
+  display: none;
+}
+
+#mem-wrappers:target #header-wrappers-open {
+  display: block;
+}
+
+#header-wrappers-open {
+  display: none;
+}
+
+#mem-wrappers:target #img-wrappers1 {
+  display: none;
+} */
+
+/* #img-wrappers1 {
+  display: none;
+} */
+
+/* MEM 2 */
+
+#mem-wrappers2:hover #header-wrappers-close2 {
+  display: block;
+}
+
+#mem-wrappers2:hover #header-wrappers-open2 {
+  display: none;
+}
+
+#header-wrappers-close2 {
+  display: none;
+}
+
+#mem-wrappers2:hover #img-wrappers2 {
+  display: block;
+}
+
+#img-wrappers2 {
+  display: none;
+}
+
+/* MEM 3 */
+
+#mem-wrappers3:hover #header-wrappers-close3 {
+  display: block;
+}
+
+#mem-wrappers3:hover #header-wrappers-open3 {
+  display: none;
+}
+
+#header-wrappers-close3 {
+  display: none;
+}
+
+#mem-wrappers3:hover #img-wrappers3 {
+  display: block;
+}
+
+#img-wrappers3 {
+  display: none;
+}
+
+/* MEM 4 */
+
+#mem-wrappers4:hover #header-wrappers-close4 {
+  display: block;
+}
+
+#mem-wrappers4:hover #header-wrappers-open4 {
+  display: none;
+}
+
+#header-wrappers-close4 {
+  display: none;
+}
+
+#mem-wrappers4:hover #img-wrappers4 {
+  display: block;
+}
+
+#img-wrappers4 {
+  display: none;
+}
+
+/* #mem-wrappers:target #img-wrappers {
+  display: block;
+}
+
+#mem-wrappers:not(:target) #img-wrappers {
+  display: none;
+} */
+
+
+
+/* #mem-wrappers:target #img-wrappers1 {
+  display: none;
+} */
+
+
+
+/* #img-wrappers {
+  display: none;
+} */
+
+
+
+
+
+/* #mem-wrappers2:not(:target) #img-wrappers2 {
+  display: none;
+} */
 
 
 

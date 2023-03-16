@@ -17,11 +17,10 @@ body {
 .container {
   width: 80%;
   margin: 0 auto;
-  padding: 30px 0;
+  padding: 1% 0;
 }
 
 .header {
-  padding-bottom: 20px;
   font-size: 3rem;
 }
 
@@ -43,23 +42,23 @@ body {
 }
 
 .header-wrappers {
-  padding: 20px 10px;
-  border-top: 2px solid rgb(129, 129, 129);
+  padding: 1% 1%;
+  border-top: 0.15em solid rgb(129, 129, 129);
 }
 
 .mem-title {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .mem-img {
-  width: 24px;
-  height: 24px;
+  width: 2%;
+  height: 2%;
 }
 
 .imgs {
-  height: 500px;
-  width: 500px;
-  padding-bottom: 30px;
+  height: 31rem;
+  width: 31rem;
+  padding-bottom: 3%;
 }
 
 .default-blue {
@@ -184,12 +183,12 @@ body {
   }
 
   .imgs {
-    height: 400px;
-    width: 400px;
+    height: 30rem;
+    width: 30rem;
   }
 
   .header {
-    padding-bottom: 20px;
+    padding-bottom: 2%;
     font-size: 2.6rem;
   }
 }
@@ -200,13 +199,13 @@ body {
   }
 
   .header {
-    padding-bottom: 10px;
+    padding-bottom: 1%;
     font-size: 2rem;
   }
 
   .imgs {
-    height: 250px;
-    width: 250px;
+    height: 15rem;
+    width: 15rem;
   }
 }
 
@@ -216,8 +215,8 @@ body {
   }
 
   .imgs {
-    height: 200px;
-    width: 200px;
+    height: 10rem;
+    width: 10rem;
   }
 
   .header {
@@ -225,11 +224,11 @@ body {
   }
 
   .container {
-    padding: 10px 0;
+    padding: 4% 0;
   }
 
   .header-wrappers {
-    padding: 20px 10px;
+    padding: 4% 4%;
   }
 }
 

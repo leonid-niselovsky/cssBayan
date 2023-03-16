@@ -38,7 +38,19 @@ body {
 }
 
 .img-wrappers {
-  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img1:checked .img-container{
+  background-color: rgb(255, 0, 102);
+}
+
+.input1:checked .img1{
+  display: none;
 }
 
 .header-wrappers {
@@ -183,8 +195,8 @@ body {
   }
 
   .imgs {
-    height: 30rem;
-    width: 30rem;
+    height: 19rem;
+    width: 19rem;
   }
 
   .header {

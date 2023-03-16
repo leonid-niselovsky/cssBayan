@@ -48,7 +48,7 @@ body {
 }
 
 .mem-title {
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 .mem-img {
@@ -57,8 +57,8 @@ body {
 }
 
 .imgs {
-  height: 400px;
-  width: 400px;
+  height: 700px;
+  width: 700px;
   padding-bottom: 30px;
 }
 
@@ -73,38 +73,15 @@ body {
 
 /* Появление значков при наведении */
 .bayan-container:hover .close-default {
-  /* display: block; */
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
 }
 
 .close-default {
-  /* display: none; */
+
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
-
-/* MEM 1 */
-
-/* #mem-wrappers: #header-wrappers-close {
-  display: none;
-}
-
-#mem-wrappers:target #header-wrappers-open {
-  display: block;
-}
-
-#header-wrappers-open {
-  display: none;
-}
-
-#mem-wrappers:target #img-wrappers1 {
-  display: none;
-} */
-
-/* #img-wrappers1 {
-  display: none;
-} */
 
 /* MEM 2 */
 
@@ -201,33 +178,59 @@ body {
   transition: opacity 1s ease-in-out;
 }
 
-/* #mem-wrappers:target #img-wrappers {
-  display: block;
+@media screen and (max-width: 1920px) {
+  .mem-title {
+    font-size: 2rem;
+  }
+
+  .imgs {
+    height: 500px;
+    width: 500px;
+  }
+
+  .header {
+    padding-bottom: 20px;
+    font-size: 2.6rem;
+  }
 }
 
-#mem-wrappers:not(:target) #img-wrappers {
-  display: none;
-} */
+@media screen and (max-width: 820px) {
+  .mem-title {
+    font-size: 1.2rem;
+  }
 
+  .header {
+    padding-bottom: 10px;
+    font-size: 2rem;
+  }
 
+  .imgs {
+    height: 250px;
+    width: 250px;
+  }
+}
 
-/* #mem-wrappers:target #img-wrappers1 {
-  display: none;
-} */
+@media screen and (max-width: 320px) {
+  .mem-title {
+    font-size: 1.1rem;
+  }
 
+  .imgs {
+    height: 200px;
+    width: 200px;
+  }
 
+  .header {
+    font-size: 1.4rem;
+  }
 
-/* #img-wrappers {
-  display: none;
-} */
+  .container {
+    padding: 10px 0;
+  }
 
-
-
-
-
-/* #mem-wrappers2:not(:target) #img-wrappers2 {
-  display: none;
-} */
-
+  .header-wrappers {
+    padding: 20px 10px;
+  }
+}
 
 
